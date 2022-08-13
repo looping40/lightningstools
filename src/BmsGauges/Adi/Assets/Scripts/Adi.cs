@@ -145,7 +145,7 @@ public class Adi : MonoBehaviour
                 _BallGameObject.transform.rotation = Quaternion.Euler(new Vector3(-DegToRadians(_lastFlightData.roll), -90, DegToRadians(-_lastFlightData.pitch)));
                 _bankGameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -DegToRadians(_lastFlightData.roll)));
 
-                _SlipGameObject.transform.position = new Vector3(_lastFlightData.beta, _SlipGameObject.transform.position.y, _SlipGameObject.transform.position.z);
+                _SlipGameObject.transform.position = new Vector3(-_lastFlightData.beta, _SlipGameObject.transform.position.y, _SlipGameObject.transform.position.z);
 
                 _GsGameObject.transform.rotation = Quaternion.Euler(new Vector3(GLIDESLOPE_SCALE * DegToRadians(-_lastFlightData.AdiIlsVerPos), 0, 0));
                 _LocGameObject.transform.rotation = Quaternion.Euler(new Vector3(0, LOCALIZER_SCALE * DegToRadians(-_lastFlightData.AdiIlsHorPos), 0));

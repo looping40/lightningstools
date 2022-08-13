@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb28db58931872c489d961c053b2d7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useDebug: 1
+  useDebug: 0
   pitchAngle: 0
   rollAngle: 0
   slip: 0

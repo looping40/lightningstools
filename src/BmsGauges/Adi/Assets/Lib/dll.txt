@@ -1,0 +1,12 @@
+Required Dlls:
+
+Common.dll
+Common.Drawing.dll
+Common.MacroProgramming.dll
+Common.SimSupport.dll
+Common.Win32.dll
+F4KeyFile.dll
+F4SharedMem.dll
+F4Utils.Process.dll
+F4Utils.SimSupport.dll
+log4net.dll
